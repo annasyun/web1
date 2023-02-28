@@ -5,14 +5,42 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>carousel</title>
+    <link rel="stylesheet" href="./src/style/reset.css" />
+    <link rel="stylesheet" href="./src/style/style.css" />
   </head>
   <body>
-    <article class="app">
-      <ul class="list-item">
+    <section id="carousel">
+      <h1>캐러셀 이미지 리스트</h1>
+      <ul class="carousel-list">
+        <li class="carousel-item">
+          <img src="./src/images/이미지_1.png" alt="" />
+        </li>
+        <li>
+          <img src="./src/images/이미지_1.png" alt="" />
+        </li>
+        <li>
+          <img src="./src/images/이미지_1.png" alt="" />
+        </li>
+        <li>
+          <img src="./src/images/이미지_1.png" alt="" />
+        </li>
+        <li>
+          <img src="./src/images/이미지_1.png" alt="" />
+        </li>
+        <li>
+          <img src="./src/images/이미지_1.png" alt="" />
+        </li>
         <li>
           <img src="./src/images/이미지_1.png" alt="" />
         </li>
       </ul>
-    </article>
+      <button class="prev-btn" type="button">&lt; Prev</button>
+      <button class="next-btn" type="button">Next &gt;</button>
+    </section>
+    <form action="">
+      <input id="inp-img-upload" type="file" accept="image/*" />
+      <label for="inp-img-upload">이미지 업로드</label>
+    </form>
+    <script src="./src/script/index.js"></script>
   </body>
 </html>
