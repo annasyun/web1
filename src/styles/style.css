@@ -1,4 +1,46 @@
-@charset 'utf-8';
+@import "reset.css";
+
+.ir {
+  display: block;
+  overflow: hidden;
+  width: 1px;
+  height: 1px;
+  font-size: 1px;
+  line-height: 0;
+  text-indent: -9999px;
+}
+
+/* 이미지 업로드 버튼 */
+
+.form-img-upload {
+  position: absolute;
+  top: 77px;
+  left: 149px;
+}
+
+#inp-img-upload {
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+#inp-img-upload + label {
+  display: block;
+  width: 185px;
+  height: 54px;
+  text-align: center;
+  line-height: 54px;
+  background-color: #2f80ed;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 18px;
+  font-family: "Noto Sans KR", sans-serif;
+  font-weight: 700;
+  cursor: pointer;
+}
 
 .app {
   width: 100vw;

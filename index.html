@@ -5,8 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>carousel</title>
-    <link rel="stylesheet" href="./src/style/reset.css" />
-    <link rel="stylesheet" href="./src/style/style.css" />
+    <link rel="stylesheet" href="./src/styles/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -16,7 +15,7 @@
   </head>
   <body>
     <section id="carousel">
-      <h1>캐러셀 이미지 리스트</h1>
+      <h1 class="ir">캐러셀 이미지 리스트</h1>
       <div class="carousel-cont">
         <ul class="carousel-list">
           <li class="carousel-item">
@@ -33,7 +32,7 @@
       <button class="prev-btn" type="button">&lt; Prev</button>
       <button class="next-btn" type="button">Next &gt;</button>
     </section>
-    <form action="">
+    <form class="form-img-upload" action="">
       <input id="inp-img-upload" type="file" accept="image/*" />
       <label for="inp-img-upload">이미지 업로드</label>
     </form>
